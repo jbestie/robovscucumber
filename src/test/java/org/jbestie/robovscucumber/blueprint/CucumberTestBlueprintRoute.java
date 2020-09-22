@@ -7,7 +7,7 @@ import org.apache.camel.test.blueprint.CamelBlueprintTestSupport;
 import javax.jms.*;
 
 @Slf4j
-public class TestBlueprintRoute extends CamelBlueprintTestSupport {
+public class CucumberTestBlueprintRoute extends CamelBlueprintTestSupport {
 
     private static final String SOURCE_ENDPOINT = "activemq:";
     private static final String VALID_QUEUE = "valid";
